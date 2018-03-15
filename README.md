@@ -3,15 +3,17 @@
 # 说明
 此代码为python3.6.3的二进制码，可以直接下载后放入到linux系统中，加入软链接即可
 # 下载与配置
-## 1下载
+## 1.下载
 `git clone https://github.com/thinkerwalker/python3-bin.git`
-## 2放入到指定目录
+## 2.放入到指定目录
 `mv python3-bin /usr/local/`
 ## 3.配置两个版本共存
 ` sudo ln -s /usr/local/python3-bin/bin/python3 /usr/bin/python3`
 ## 4.修改默认为 Python 3
-`sudo rm /usr/bin/python`
-`sudo ln -s /usr/local/python3-bin/bin/python3 /usr/bin/python`
+```
+sudo rm /usr/bin/python
+sudo ln -s /usr/local/python3-bin/bin/python3 /usr/bin/python
+```
 ## 5.创建pip链接
 `sudo ln -s /usr/local/python3-bin/bin/pip /usr/bin/pip3`
 ``
