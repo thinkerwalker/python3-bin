@@ -2,7 +2,14 @@
 
 # 说明
 此代码为python3.6.3的二进制码，可以直接下载后放入到linux系统中，加入软链接即可
-# 下载与配置
+有两种安装方法，一种你可以手动配置，另一种可以使用一键安装脚本onekey-python_install.sh,自动安装和手动安装的路径配置是一致的。
+# 自动
+## 1.下载
+`git clone https://github.com/thinkerwalker/python3-bin.git`
+## 2.运行脚本
+`cd python3-bin;sudo ./onekey-python_install.sh`
+
+# 手动
 ## 1.下载
 `git clone https://github.com/thinkerwalker/python3-bin.git`
 ## 2.放入到指定目录
